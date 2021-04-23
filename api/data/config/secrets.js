@@ -1,5 +1,5 @@
-const jwtSecret = process.env.JWT_SECRET || "keepitsecret"
+const secret = process.env.JWT_SECRET || "keepitsecret"
 
 module.exports = {
-    jwtSecret
+    secret
 }
